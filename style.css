@@ -2,17 +2,43 @@
 	text-align: center;
 	background-color: red;
 	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
 }
 #recommended {
 	background-color: blue;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-/*	flex-direction: column;*/
+	justify-content: space-between;
 }
 .recommended_box {
 	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 	width: 200px;
+	height: 270px;
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid black;
+}
+.recommended_box_image {
+	display: flex;
+	flex-wrap: wrap;
+	width: 194px;
+	height: 194px;
+	margin: 0px;
+	padding: 3px;
+}
+.recommended_box_str {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	width: 187px;
+	height: 57px;
+	margin: 3px;
+	padding: 3px;
+	border-top: 1px solid black;
 }
 #category {
 	background-color: gray;
@@ -46,4 +72,8 @@
 	width: 100%;
 	background-color: orange;
 	height: 150px;
+}
+#favicon {
+	width: 50px;
+	height: 50px;
 }
